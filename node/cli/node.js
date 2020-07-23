@@ -24,7 +24,7 @@ class QtumNode {
       services
     })
     this.registerExitHandlers()
-    this.#node.on('ready', () => this.logger.info('Qtuminfo Node ready.'))
+    this.#node.on('ready', () => this.logger.info('Evoinfo Node ready.'))
     this.#node.on('error', err => this.logger.error(err))
     this.#node.start().catch(err => {
       this.logger.error('Failed to start services')
