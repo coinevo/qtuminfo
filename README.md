@@ -1,4 +1,4 @@
-# qtuminfo
+# evoinfo
 
 [API documentation](https://github.com/qtumproject/qtuminfo-api/blob/master/README.md)
 
